@@ -38,7 +38,6 @@ var RememberInputs =  {
 
     /**
      * Create listeners for tracked form submissions
-     * @return {[type]} [description]
      */
     listen : function() {
         var forms = document.getElementsByClassName("remember-inputs");
@@ -50,7 +49,6 @@ var RememberInputs =  {
     /**
      * Given a form element, retrieve and set stored input values for all inputs
      * @param  {[type]} e [description]
-     * @return {[type]}   [description]
      */
     loadAll : function(e) {
 
@@ -121,7 +119,6 @@ var RememberInputs =  {
     /**
      * Record input values for all inputs given form element
      * @param  {[type]} e [description]
-     * @return {[type]}   [description]
      */
     storeAll : function (e) {
 
@@ -190,7 +187,6 @@ var RememberInputs =  {
      * Store input value into local storage
      * @param  {[type]} name  [description]
      * @param  {[type]} value [description]
-     * @return {[type]}       [description]
      */
     store : function( name ,  value ) {
         if (typeof value == 'object') {
