@@ -8,7 +8,7 @@ Pure JavaScript class that will store and retrieve a form's input selection usin
 
 # How to contribute 
 
-Feel free to fork and add pull requests, open issues. Feel free to fork and modify.
+Feel free to open issues. Currently does not support textareas but won't be hard to write in. 
 
 # Licensing
 
