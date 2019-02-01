@@ -12,4 +12,4 @@ Feel free to open issues. Currently does not support textareas but won't be hard
 
 # Licensing
 
-Free to use. Free to modify. The asset took about 4 hours to create. If you'd like to say thanks, my PP is hudson.atwell@gmail.com! 
+Free to use. Free to modify. This asset took about 4 hours to create. If you'd like to say thanks, my PP is hudson.atwell@gmail.com! 
