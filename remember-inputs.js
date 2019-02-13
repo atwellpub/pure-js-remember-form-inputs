@@ -70,11 +70,9 @@ var RememberInputs =  {
                 case 'text':
                     var stored = RememberInputs.retrieve(name);
                     inputs[i].value = stored;
-
                     break;
                 case 'radio':
                     var checked = RememberInputs.retrieve(name);
-
                     if (checked && typeof checked[value] != 'undefined' ) {
                         if (checked[value]===true) {
                             inputs[i].click();
@@ -206,7 +204,6 @@ var RememberInputs =  {
         if (RememberInputs.checkJSON(store)) {
             store = JSON.parse(store);
         }
-
         return store;
     },
 
